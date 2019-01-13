@@ -1,7 +1,9 @@
-package com.example.kevin.projectprototype;
+package com.example.kevin.projectprototype.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.kevin.projectprototype.R;
 
 public class WhiteWineFlavour extends AppCompatActivity {
 

@@ -2,30 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
 
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="@color/colorAccent"
+    android:layout_height="100dp"
+    android:background="#9cffa2"
     android:gravity="bottom"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
     android:padding="16dp"
-    android:layout_height="176dp">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"/>
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop ="8dp"
-        android:text="Placeholder for a text"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:paddingTop="8dp"
+        android:text="Username"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="name@email.com" />
+        android:text="username@email.com"
+        android:textColor="@android:color/black"/>
 
 
 </LinearLayout>

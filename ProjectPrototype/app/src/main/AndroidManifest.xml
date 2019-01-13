@@ -33,6 +33,7 @@
         <activity android:name=".activity.Mainpage" />
         <activity android:name=".activity.RedWineFlavour" />
         <activity android:name=".activity.WhiteWineFlavour" />
+        <activity android:name=".activity.RoseWineFlavour" />
     </application>
 
 </manifest>
